@@ -24,9 +24,7 @@ library("ggrepel")
 library("sf")
 library("rnaturalearth")
 library("rnaturalearthdata")
-if (!require(fmsb)) install.packages("fmsb", dependencies=TRUE)
-if (!require(fmsb)) install.packages("fmsb", dependencies=TRUE)
-# Załadowanie pakietu fmsb
+
 library(fmsb)
 library(grDevices)
 
